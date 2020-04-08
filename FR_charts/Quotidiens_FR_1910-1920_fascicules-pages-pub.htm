@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>French Dailies dataset (1910-1920), 40k issues</title>
+		<title>Jeu de données Quotidiens français (1910-1920), 40k fascicules</title>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<style type="text/css">
@@ -15,10 +15,10 @@ $(function () {
             type: 'spline'
         },
         title: {
-            text: 'French Dailies dataset (1910-1920), 40k issues, 213k pages, 63k illustrated ads'
+            text: 'Jeu de données Quotidiens français (1910-1920, 40k fascicules, 213k pages, 63k publicités illustrées)'
         },
         subtitle: {
-            text: 'Source: <a href="https://gallica.bnf.fr">Gallica</a>, BnF'
+            text: 'Source : <a href="https://gallica.bnf.fr">Gallica</a>, BnF'
         },
         xAxis: {
             categories: [
@@ -322,7 +322,7 @@ color: Highcharts.getOptions().colors[0],
   1510
 ]},
 {
-name: 'issues',
+name: 'fascicules',
 color: Highcharts.getOptions().colors[1],
 data: [
 	292,
@@ -459,7 +459,7 @@ data: [
  339
 ]},
  {
-name: 'illustrated ads',
+name: 'publicités illustrées',
 color: Highcharts.getOptions().colors[2],
 data: [
 	222,
@@ -599,12 +599,12 @@ data: [
 		name: 'Total',
 
 		data: [{
-				name: 'issues',
+				name: 'fascicules',
 				y: 40890,
         color: Highcharts.getOptions().colors[1]
 		}
 		 ,{
-				name: 'ads',
+				name: 'publicités',
 				y: 63532,
 				color: Highcharts.getOptions().colors[2],
 
@@ -630,8 +630,7 @@ data: [
 	<body>
 		<script src="https://code.highcharts.com/highcharts.js"></script>
 		<script src="https://code.highcharts.com/modules/exporting.js"></script>
-
-<script src="https://code.highcharts.com/themes/dark-unica.js"></script>
+    <script src="https://code.highcharts.com/themes/dark-unica.js"></script>
 
 <div id="container" style="min-width: 500px; height: 800px; margin: 0 auto"></div>
 
