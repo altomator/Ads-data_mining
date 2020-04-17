@@ -5,6 +5,7 @@ This work is a compagnon project of the [GallicaPix PoC](https://gallicapix.bnf.
 It leverages a dataset of heritage French periodical illustrated ads built under the [GallicaPix](https://github.com/altomator/Image_Retrieval) umbrella.
 
 This graph presents the main characteristics of the dataset:
+- 1910-1920 time period,
 - 65k illustrated ads data mined in French periodicals (mainly dailies), 
 - the periodicals dataset from which these ads have been data mined gathers 36k issues, 265k pages, from 16 daily titles and 15 magazine titles.
 
