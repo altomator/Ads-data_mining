@@ -1,6 +1,6 @@
 # Data mining illustrated ads with object detection
 
-This work is a compagnon project of the [GallicaPix PoC](www.gallicapix.bnf.fr). It has been conducted during the 2019 Helsinki Digital Humanities Hackathon, within the Newspapers and Capitalism [group](https://blogs.helsinki.fi/digital-humanities-hackathon/category/newspapers-and-capitalism/), and thanks to the [NewsEye](https://www.newseye.eu/) European project.
+This work is a compagnon project of the [GallicaPix PoC](https://www.gallicapix.bnf.fr). It has been conducted during the 2019 Helsinki Digital Humanities Hackathon, within the Newspapers and Capitalism [group](https://blogs.helsinki.fi/digital-humanities-hackathon/category/newspapers-and-capitalism/), and thanks to the [NewsEye](https://www.newseye.eu/) European project.
 
 It leverages a dataset of heritage French periodical illustrated ads built under the [GallicaPix](https://github.com/altomator/Image_Retrieval) umbrella.
 
@@ -17,7 +17,7 @@ Yolo v3 have been applied to the ads images (see "Face and object detection" sec
 Yolo v3 may have some serious issues on inferencing objects on heritage newspapers ads. Mean recall is around 30% and mean precision 58%. As expected, the best performances are observed on the technical objects that have changed shape the least between 1910 and today, namely bicycles. The airplanes of that era are not recognized at all.
 
 ## Human annotations
-Consequently, a human annotation campaign has been applied to the whole dataset, in order to fix false positives and false negatives. 6k annotations have been produced, using the editing features of the [GallicaPix](www.gallicapix.bnf.fr) web app.
+Consequently, a human annotation campaign has been applied to the whole dataset, in order to fix false positives and false negatives. 6k annotations have been produced, using the editing features of the [GallicaPix](https://www.gallicapix.bnf.fr) web app.
 
 ![GallicaPix editor](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/gp-edition.jpg)
 
