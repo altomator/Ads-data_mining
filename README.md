@@ -12,7 +12,7 @@ This graph presents the main characteristics of the dataset:
 [Illustrated ads dataset](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/Periodical_FR_1910-1920_issues-pages-ads.htm)
 
 ## Object detection
-Yolo v3 have been applied to the ads images (see "Face and object detection" section on the Image Retrieval [page](https://github.com/altomator/Image_Retrieval). Seven "transports" classes are used: bicycle, car, motorbike, aiplane, train, truck, boat. Yolo v3 generated 17.5k annotations (1,400 on the means of transport classes).
+Yolo v3 have been applied to the ads images (see "Face and object detection" section on the Image Retrieval [page](https://github.com/altomator/Image_Retrieval)). Seven "transports" classes are used: bicycle, car, motorbike, aiplane, train, truck, boat. Yolo v3 generated 17.5k annotations (1,400 on the means of transport classes).
 
 Yolo v3 may have some serious issues on inferencing objects on heritage newspapers ads. Mean recall is around 30% and mean precision 58%. As expected, the best performances are observed on the technical objects that have changed shape the least between 1910 and today, namely bicycles. The airplanes of that era are not recognized at all.
 
