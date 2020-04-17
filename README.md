@@ -8,7 +8,7 @@ It leverages a dataset of heritage French newspapers illustrated ads built under
 
 This [graph](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/Dailies_FR_1910-1920_issues-pages-ads.htm) presents the main characteristics of the dataset.
 
-![Ads dataset statistics](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/ads-dataset.png)
+![Ads dataset statistics](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/ads-dataset.jpg)
 
 ## Object detection
 Yolo v3 have been applied to the ads images (see "Face and object detection" section on the Image Retrieval [page](https://github.com/altomator/Image_Retrieval)). Seven "transports" classes are used: bicycle, car, motorbike, aeroplane, train, truck, boat. Yolo v3 generated 17.5k annotations (1.400 on the means of transport classes).
