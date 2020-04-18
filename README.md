@@ -24,7 +24,8 @@ Consequently, a human annotation campaign has been applied to the whole dataset,
 
 ![GallicaPix editor](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/gp-edition.jpg)
 
-Transfert training of a dedicated CNN model, leveraging this ground truth, might be a good option for a near future.
+Transfert training of a dedicated CNN model, leveraging this ground truth, might be a good option. A simple model of 3 classes, 10 images per class, trained with the IBM Watson Visual Recognition/Object detection feature, gives good results on test images taken from newspapers not used in the training set.
+
 
 ## Analysis
 The following charts mainly show the impact of the WW1 on the economy, through the quantity of ads published, and the evolution of transport techniques. 
