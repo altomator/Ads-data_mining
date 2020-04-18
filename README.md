@@ -17,7 +17,7 @@ Yolo v3 have been applied to the ads images (see "Face and object detection" sec
 
 Yolo v3 may have some serious issues on inferencing objects on heritage newspapers ads. Mean recall is around 30% and mean precision 58%. As expected, the best performances are observed on the technical objects that have changed shape the least between 1910 and today, namely bicycles. The airplanes of that era are not recognized at all.
 
-![Airplane example](https://github.com/altomator/Ads-data_mining/blob/master/ads/airplanes/airplane1.jpg)
+![Airplane example](https://github.com/altomator/Ads-data_mining/blob/master/ads/airplanes/airplane4.jpg)
 
 ## Human annotations
 Consequently, a human annotation campaign has been applied to the whole dataset, in order to fix false positives and false negatives. 6k annotations have been produced, using the editing features of the [GallicaPix](https://gallicapix.bnf.fr/) web app.
