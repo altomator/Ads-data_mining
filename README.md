@@ -29,7 +29,7 @@ Transfert training of a dedicated CNN model, leveraging this ground truth, might
 
 Inferencing the dataset can then be done with curl (or a script language):
 
-`curl -X POST -u "apikey:{apikey}" --form "images_file=@ftest_image" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19& classifier_ids=DefaultCustomModel_1457318034"
+`curl -X POST -u "apikey:{apikey}" --form "images_file=@ftest_image" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19& classifier_ids=DefaultCustomModel_1457318034"`
 
 
 ## Analysis
