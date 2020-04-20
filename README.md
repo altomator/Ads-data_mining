@@ -25,11 +25,11 @@ Consequently, a human annotation campaign has been applied to the whole dataset,
 ![GallicaPix editor](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/gp-edition.jpg)
 
 ## Trained models 
-Transfert training of a dedicated CNN model, leveraging this ground truth, might be a good option. A simple model of 3 classes, 15 images per class, trained with IBM Watson Visual Recognition/ (object detection or classification features), gives good results on test images taken from newspapers not used in the training set.
+Transfert training of a dedicated CNN model, leveraging this ground truth, might be a good option. A simple model of 3 classes, 15 images per class, trained with IBM Watson Visual Recognition/ (Object detection or Classification models), gives good results on test images taken from newspapers not used in the training set.
 
-Inferencing the dataset images can then be done with curl (or a script language):
+Inferencing the dataset images can then be done with a cURL command (or with any scripting language):
 
-`curl -X POST -u "apikey:{apikey}" --form "images_file=@ftest_image" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19& classifier_ids=DefaultCustomModel_1457318034"`
+`curl -X POST -u "apikey:{apikey}" --form "images_file=@ftest_image.jpg" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19& classifier_ids=DefaultCustomModel_1457318034"`
 
 
 ## Analysis
