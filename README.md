@@ -27,7 +27,7 @@ Consequently, a human annotation campaign has been applied to the whole dataset,
 ## Trained models 
 Transfert training of a dedicated CNN model, leveraging this ground truth, might be a good option. A simple model of 3 classes, 15 images per class, trained with IBM Watson Visual Recognition/ (Object detection or Classification models), gives good results on test images taken from newspapers not used in the training set.
 
-![Watson object detection](http://www.euklides.fr/blog/altomator/Image_Retrieval/watson.jpg)
+![Watson object detection](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/watson.jpg)
 
 Inferencing the dataset images can then be done with a cURL command (or with any scripting language):
 
