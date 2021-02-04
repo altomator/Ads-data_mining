@@ -8,7 +8,8 @@ This graph presents the main characteristics of the dataset:
 - 1910-1920 time period,
 - 65k illustrated ads data mined in French periodicals (mainly dailies), 
 - the periodicals dataset from which these ads have been data mined gathers 36k issues, 265k pages, from 16 daily titles and 15 magazine titles.
-- another dataset is also available (Vogue magazine, French edition, 1920-1940)
+
+Note: another dataset is also available ([Vogue magazine](https://gallica.bnf.fr/ark:/12148/cb343833568/date), French edition, 1920-1940)
 
 ![Ads dataset statistics](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/ads-dataset.jpg)
 [Illustrated ads dataset](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/Periodical_FR_1910-1920_issues-pages-ads.htm)
