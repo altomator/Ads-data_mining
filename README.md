@@ -1,4 +1,4 @@
-# Data mining illustrated ads with object detection
+# Data mining newspapers illustrated ads with object detection
 
 This work is a compagnon project of the [GallicaPix PoC](https://gallicapix.bnf.fr/). It has been conducted during the 2019 Helsinki Digital Humanities Hackathon, within the Newspapers and Capitalism [group](https://blogs.helsinki.fi/digital-humanities-hackathon/category/newspapers-and-capitalism/), and thanks to the [NewsEye](https://www.newseye.eu/) European project.
 
@@ -8,6 +8,7 @@ This graph presents the main characteristics of the dataset:
 - 1910-1920 time period,
 - 65k illustrated ads data mined in French periodicals (mainly dailies), 
 - the periodicals dataset from which these ads have been data mined gathers 36k issues, 265k pages, from 16 daily titles and 15 magazine titles.
+- another dataset is also available (Vogue magazine, French edition, 1920-1940)
 
 ![Ads dataset statistics](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/ads-dataset.jpg)
 [Illustrated ads dataset](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/Periodical_FR_1910-1920_issues-pages-ads.htm)
