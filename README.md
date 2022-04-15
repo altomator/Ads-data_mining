@@ -24,12 +24,9 @@ Yolo v3 may have some serious issues on inferencing objects on heritage newspape
 ## Human annotations
 Consequently, a human annotation campaign has been applied to the whole dataset, in order to fix false positives and false negatives. 6k annotations have been produced, using the editing features of the [GallicaPix](https://gallicapix.bnf.fr/) web app.
 
-![GallicaPix editor](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/gp-edition.jpg)
 
 ## Trained models 
-Transfert training of a dedicated CNN model, leveraging this ground truth, might be a good option. A simple model of 3 classes, 15 images per class, trained with IBM Watson Visual Recognition/ (Object detection or Classification models), gives good results on test images taken from newspapers not used in the training set.
-
-![Watson object detection](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/watson.jpg)
+Transfert training of a dedicated CNN model, leveraging this ground truth, might be a good option. A simple model of 3 classes, 15 images per class, trained with IBM Watson Visual Recognition (*discontinued on 1 December 2021*), gives good results on test images taken from newspapers not used in the training set.
 
 Inferencing the dataset images can then be done with a cURL command (or with any scripting language):
 
