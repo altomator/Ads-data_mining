@@ -11,8 +11,8 @@ This graph presents the main characteristics of the dataset:
 
 Note: another dataset is also available ([Vogue magazine](https://gallica.bnf.fr/ark:/12148/cb343833568/date), French edition, 1920-1940)
 
-![Ads dataset statistics](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/ads-dataset.jpg)
-[Illustrated ads dataset](http://www.euklides.fr/blog/altomator/Image_Retrieval/Ads-data-mining/Periodical_FR_1910-1920_issues-pages-ads.htm)
+![Ads dataset statistics](https://altomator.github.io/Ads-data_mining/EN_charts/ads-dataset.jpg)
+[Illustrated ads dataset](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_issues-pages-ads.htm)
 
 ## Object detection
 Yolo v3 have been applied to the ads images (see "Face and object detection" section on the Image Retrieval [page](https://github.com/altomator/Image_Retrieval)). Seven "transports" classes are used: bicycle, car, motorbike, aiplane, train, truck, boat. Yolo v3 generated 17.5k annotations (1,400 on the means of transport classes).
