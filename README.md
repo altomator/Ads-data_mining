@@ -11,7 +11,7 @@ This graph presents the main characteristics of the dataset:
 
 Note: another dataset is also available ([Vogue magazine](https://gallica.bnf.fr/ark:/12148/cb343833568/date), French edition, 1920-1940)
 
-![Ads dataset statistics](https://github.com/altomator/Ads-data_mining/EN_charts/ads-dataset.jpg)
+![Ads dataset statistics](https://github.com/altomator/Ads-data_mining/blob/master/EN_charts/ads-dataset.jpg)
 [Illustrated ads dataset](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_issues-pages-ads.htm)
 
 ## Object detection
@@ -39,10 +39,10 @@ Inferencing the dataset images can then be done with a cURL command (or with any
 ## Analysis
 The following charts mainly show the impact of the WW1 on the economy, through the quantity of ads published, and the evolution of transport techniques. 
 
-![Means of transport vs other ads, per year](https://github.com/altomator/Ads-data_mining/EN_charts/total-year.jpg)
+![Means of transport vs other ads, per year](https://github.com/altomator/Ads-data_mining/blob/master/EN_charts/total-year.jpg)
 [Means of transport vs other ads, per year](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_ads-year.htm)
 
-![Means of transport illustrated ads, per month](https://github.com/altomator/Ads-data_mining/EN_charts/total-month.jpg)
+![Means of transport illustrated ads, per month](https://github.com/altomator/Ads-data_mining/blob/master/EN_charts/total-month.jpg)
 Means of transport illustrated ads, per month: [% of published ads per page](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_mean-ads-month.htm) and [total of published ads](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_total-ads-month.htm)
 
 For example, the analysis shows that military truck stocks were massively converted to civilian use from 1919 onwards.
