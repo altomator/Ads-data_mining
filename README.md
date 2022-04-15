@@ -39,7 +39,8 @@ The following charts mainly show the impact of the WW1 on the economy, through t
 
 [Means of transport vs other ads, per year](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_ads-year.htm)
 
-Means of transport illustrated ads, per month: [% of published ads per page](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_mean-ads-month.htm) and [total of published ads](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_total-ads-month.htm)
+![Ads dataset statistics](https://github.com/altomator/Ads-data_mining/blob/master/EN_charts/ads-per-page.jpg)
+Means of transport illustrated ads, per month: [published ads per page](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_ads-per-page-month.htm) and [total of published ads](https://altomator.github.io/Ads-data_mining/EN_charts/Periodical_FR_1910-1920_total-ads-month.htm)
 
 For example, the analysis shows that military truck stocks were massively converted to civilian use from 1919 onwards.
 
